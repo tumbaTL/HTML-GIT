@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Tumba TL Sihombing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">Tumba TL</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#about">Tentang</a>
+            <a href="#hobi">Hobi</a>
+            <a href="#kuliah">Mata Kuliah</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <img src="Tumba.jpg.jpeg" alt="Foto Tumba">
+        <h1>Tumba TL Sihombing</h1>
+        <p>NIM: 245314001 | Informatika</p>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="card">
+            <h2>Tentang Saya</h2>
+            <p>
+                Saya adalah mahasiswa Informatika Universitas Sanata Dharma
+                yang memiliki minat besar dalam dunia teknologi dan pemrograman.
+                Saya percaya bahwa teknologi dapat membantu kehidupan manusia
+                menjadi lebih efisien dan inovatif.
+            </p>
+        </div>
+    </section>
+
+    <!-- HOBI -->
+    <section id="hobi" class="section">
+        <h2>Hobi Saya</h2>
+        <div class="grid">
+            <div class="card">🍳 Memasak</div>
+            <div class="card">🎤 Menyanyi</div>
+            <div class="card">✈️ Traveling</div>
+        </div>
+    </section>
+
+    <!-- MATA KULIAH -->
+    <section id="kuliah" class="section">
+        <h2>Daftar Mata Kuliah</h2>
+        <div class="grid">
+            <div class="card">Analisis & Strategi Algoritma</div>
+            <div class="card">Interaksi Manusia & Komputer</div>
+            <div class="card">Pembelajaran Mesin</div>
+            <div class="card">Rekayasa Perangkat Lunak</div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Tumba TL Sihombing
+    </footer>
+
+</body>
+</html>
